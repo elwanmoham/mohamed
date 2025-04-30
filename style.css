@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(68, 68, 68, 0.979);
+}
+header{
+    background-image: url(./image/9.jpeg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.mm{
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0.212) , rgba(0, 0, 0, 0.999));
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 200px;
+}
+.link{
+    display: flex;
+    gap: 20px;
+}
+.head .logo a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.head .link .but1 button{
+    padding: 7px 35px;
+    color: whitesmoke;
+
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.432);
+    border-radius: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.head .link .but2 button{
+    padding: 7px 8px;
+    color: whitesmoke;
+
+    border: 1px solid red;
+    background-color: red;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+}
+.text{
+    position: absolute;
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.text h1{
+    color: whitesmoke;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.text h4{
+    color: whitesmoke;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.text h5{
+    color: rgba(255, 255, 255, 0.568);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+}
+.text .input input{
+    padding: 17px 70px;
+    border: 1px solid rgba(255, 255, 255, 0.432);
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+input::placeholder{
+    color: whitesmoke;
+
+    left: 50px;
+    
+}
+.text .input button{
+    padding: 17px 50px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+
+    border: 1px solid red;
+    background-color: red;
+
+}
+
+@media only screen and (min-width:546px) and (max-width:1100px) {
+
+    .head{
+        display: flex;
+        padding: 30px;
+    }
+    
+    
+    .head .logo a{
+        text-decoration: none;
+        color: red;
+        font-size: 30px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .text{
+        position: absolute;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+    }
+    .text h1{
+        color: whitesmoke;
+    
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .text h4{
+        color: whitesmoke;
+    
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .text h5{
+        color: rgba(255, 255, 255, 0.568);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        padding-bottom: 20px;
+        letter-spacing: 4px;
+        margin-bottom: 30px;
+    }
+    .text .input input{
+        padding: 17px 70px;
+        border: 1px solid rgba(255, 255, 255, 0.432);
+        border-radius: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        background-color: rgba(0, 0, 0, 0.288);
+    }
+    .text .input{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    input::placeholder{
+        color: whitesmoke;
+    
+        left: 50px;
+        
+    }
+    .text .input button{
+        padding: 17px 50px;
+        border-radius: 5px;
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: whitesmoke;
+    
+        border: 1px solid red;
+        background-color: red;
+    
+    }
+
+}
+
+
+.one{
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+}
+.one .onetext{
+    width: 800px;
+}
+.one .onetext h1{
+    color: whitesmoke;
+
+    font-size: 85px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+
+}
+.one .onetext p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.ved video{
+    width: 800px;
+}
+
+
+.two{
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+
+}
+.two .twotext{
+    width: 800px;
+}
+.two .twotext h1{
+    color: whitesmoke;
+
+    font-size: 85px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+
+}
+.two .twotext p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.twoved video{
+    width: 600px;
+}
+.two{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.144) , rgba(0, 0, 0, 0.999));
+}
+.one{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.144) , rgba(0, 0, 0, 0.999));
+}
+
+
+.thre{
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+
+}
+.thre .thretext{
+    width: 800px;
+}
+.thre .thretext h1{
+    color: whitesmoke;
+
+    font-size: 85px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+
+}
+.thre .thretext p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.threved img{
+    width: 600px;
+}
+.thre{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.144) , rgba(0, 0, 0, 0.999));
+}
+
+
+.for{
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+.for .center h1{
+    color: whitesmoke;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    padding-bottom: 20px;
+
+}
+.fortext .fortext1 h1{
+    color: whitesmoke;
+
+    background-color: rgba(68, 68, 68, 0.979);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:  25px;
+    font-size: 28px;
+}
+.fortext .fortext1{
+    width: 1500px;
+    margin: 7px;
+}
+.for .center2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center2 h5{
+    color: rgba(255, 255, 255, 0.568);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+.center2 .input{
+    margin-top: -30px;
+}
+.center2 .input input{
+    padding: 17px 70px;
+    border: 1px solid rgba(255, 255, 255, 0.432);
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+input::placeholder{
+    color: whitesmoke;
+    left: 50px;
+    
+}
+.center2 .input button{
+    padding: 17px 50px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    border: 1px solid red;
+    background-color: red;
+}
+
+.fot{
+    background-color: black;
+    margin-top: 10px;
+    padding: 200px 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.fot .links{
+    display: flex;
+    flex-direction: column;
+}
+.fot .links a{
+    padding: 20px;
+    color: whitesmoke;
+}
+.links button{
+    padding: 10px;
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    color: whitesmoke;
+    background-color: rgba(117, 116, 116, 0.178);
+    border: 1px solid whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.links button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
